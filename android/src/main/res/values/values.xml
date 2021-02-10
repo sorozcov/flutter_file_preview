@@ -1250,18 +1250,18 @@
     <item name="immersion_navigation_bar_view" type="id"/>
     <item name="immersion_status_bar_view" type="id"/>
     <string name="app_name">common</string>
-    <string name="permission_allow">授予</string>
-    <string name="permission_allow_fail">获取授权失败</string>
-    <string name="permission_apply_fail">权限申请失败</string>
-    <string name="permission_cancel">取消</string>
-    <string name="permission_come_useapp">权限来正常使用APP</string>
-    <string name="permission_message">权限被您拒绝或者系统发生错误申请失败，请您到设置页面手动授权，否则功能无法正常使用！</string>
-    <string name="permission_need">我们需要</string>
-    <string name="permission_refuse">拒绝</string>
-    <string name="permission_setting">设置</string>
-    <string name="permission_some">一些</string>
-    <string name="permission_tip">提示</string>
-    <string name="please_press_back_again_to_exit">再按一次退出</string>
+    <string name="permission_allow">Permission Allow</string>
+    <string name="permission_allow_fail">Permissions Allow Fail</string>
+    <string name="permission_apply_fail">Permission Apply Fail</string>
+    <string name="permission_cancel">Permission Cancel</string>
+    <string name="permission_come_useapp">Permission Come Useapp</string>
+    <string name="permission_message">Permission Message</string>
+    <string name="permission_need">Permission Need</string>
+    <string name="permission_refuse">Permission Refuse</string>
+    <string name="permission_setting">Permission Setting</string>
+    <string name="permission_some">Permission Some</string>
+    <string name="permission_tip">Permission Tip</string>
+    <string name="please_press_back_again_to_exit"></string>
     <style name="AlertDialog" parent="Theme.AppCompat.Light.Dialog">
         <!-- 这里设置背景为透明，为了隐藏边框 -->
         <item name="android:windowBackground">@android:color/transparent</item>
