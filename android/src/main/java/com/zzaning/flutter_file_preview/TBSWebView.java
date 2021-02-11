@@ -153,7 +153,7 @@ public class TBSWebView extends WebView {
         public void onReceivedTitle(WebView webView, String s) {
             super.onReceivedTitle(webView, s);
             if (mListener != null) {
-                mListener.onReceivedTitle("");
+                mListener.onReceivedTitle(s);
             }
 
         }

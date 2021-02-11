@@ -22,7 +22,7 @@
     FilePreviewVC *preview = [[FilePreviewVC alloc] init];
     preview.backImgPath = self.backImgPath;
     preview.url = path;
-    preview.title = title != NULL ? title : @"文件预览";
+    preview.title = title != NULL ? title : @"N/A";
     UINavigationController *navCtrl = [[UINavigationController alloc] initWithRootViewController:preview];
     [self.hostViewController presentViewController:navCtrl animated:YES completion:nil];
   } else if ([@"getPlatformVersion" isEqualToString:call.method]) {
